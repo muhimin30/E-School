@@ -1,0 +1,57 @@
+/* poppins font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/* common CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*
+  Navbar CSS
+*/
+.header{
+    padding: 1rem 0;
+}
+.navbar-brand{
+    width: 20%;
+}
+.navbar-brand img{
+    max-width: 100%;
+}
+.menu-items{
+    justify-content: right;
+}
+.nav-link{
+    color: #000;
+    font-size: 1.6rem;
+}
+
+.nav-item{
+    padding: 0.5rem 1.5rem;
+}
+.sign-in-btn{
+    padding: 0.5rem 2.5rem;
+    background-color: #21B573;
+    border: 1px solid #21B573;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+.sign-in-btn:hover{
+    background-color: #fff;
+}
+.sign-in-btn:hover .sign-in{
+    color: #000;
+}
+.sign-in{
+    color: #fff;
+}
