@@ -23,6 +23,26 @@ p{
     font-size: 1.6rem;
     font-weight: 400;
 }
+.button{
+    border: 1px solid #21B573;
+    background-color: #21B573;
+    color: #fff;
+    font-size: 1.6rem;
+    border-radius: 3rem;
+    padding: 1rem 2.5rem;
+    display: inline-block;
+    transition: 0.2s;
+}
+.button:hover{
+    color: #000;
+    background-color: #fff;
+}
+.section-title{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 3rem 0;
+}
 
 /*
   Navbar CSS
@@ -87,16 +107,6 @@ p{
 .hero-title span{
     color: #21B573;
 }
-.hero-btn{
-    color: #fff;
-    background-color: #21B573;
-    padding: 1rem 2.5rem;
-    font-size: 1.6rem;
-    border: 1px solid #21B573;
-    border-radius: 3rem;
-    display: inline-block;
-}
-
 .about-row{
     display: flex;
     justify-content: space-between;
@@ -131,4 +141,97 @@ p{
 }
 .about-items p{
     color: #585859;
+}
+
+.online-courses{
+    padding: 2rem 0;
+}
+.c-title{
+    color: #413960;
+    padding-bottom: 2rem;
+}
+.card-deck{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 32%;
+    padding: 2rem;
+    border: none;
+    box-shadow: 0rem 0rem 1.5rem -0.5rem #585859;
+}
+.card-title{
+    color: #413960;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+.card-text{
+    color: #585859;
+}
+.card-btn{
+    margin: 2rem 0;
+}
+.card-date-seat{
+    display: flex;
+    justify-content: space-between;
+    color: #585859;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+}
+
+
+.testimonial{
+    padding: 7rem 0;
+}
+.t-title{
+    color: #000;
+}
+.testimonial-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 19rem;
+}
+.test-img{
+    width: 12rem;
+}
+.test-text{
+    width: 60rem;
+}
+
+
+
+.footer{
+    background-color: #282531;
+    padding: 5rem 0 2rem 0;
+    color: #fff;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-menu{
+    display: flex;
+    flex-direction: column;
+}
+.bottom-menu h5{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.bottom-menuItems{
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 0.3rem 0;
+    font-weight: 400;
+}
+.bottom-menuItems:hover{
+    color: #fff;
+}
+.copyright{
+    font-size: 1.6rem;
+    text-align: center;
+    color: #CDCDCD;
+    margin-top: 5rem;
 }
